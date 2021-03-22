@@ -1,0 +1,189 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #212529;
+	font-family: 'Source Code Pro', monospace;
+}
+
+header{
+    background-color: #eee;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+
+#inicio-carrucel h2{
+	
+	color: #345857;
+	font-size: 50px;
+
+	
+}
+
+#inicio-carrucel{
+	background-size: cover;
+}
+
+#acerca{
+	
+	text-align: center;
+		color: #345857;
+}
+#acerca .circulo{
+	width: 300px;
+	height: 300px;
+	line-height: 80px;
+	border-radius: 100%;
+	background-color: #efefef;
+	display: block;
+	margin: auto;
+	color:#D4D4D4;
+	font-size: 20px;
+	text-align: center;
+	transition: all 0.6s  ease-in-out;
+
+}
+#acerca h5{
+	font-family: 'Dancing Script', cursive;
+	font-size: 25px;
+
+}
+
+#acerca p{
+	
+	text-align: center;
+		color: #000000;
+}
+
+#servicios .circulo{
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	background-color: #345857;
+	display: block;
+	margin: auto;
+	color:#F5CD8F;
+	font-size: 20px;
+	text-align: center;
+	transition: all 0.6s  ease-in-out;
+}
+#servicios{
+	
+	text-align: center;
+	padding: 25px 15px;
+
+}
+#servicios h4{
+	padding: 5px 5px;
+}
+
+
+
+#portafolio h4{
+	
+	color: #FFFFFF;
+	margin-top: 5%;
+	border-top:groove;
+
+
+
+}
+
+
+
+/*capas en HTML-CSS*/
+
+.Diseno{
+	
+	position:relative;
+
+
+}
+
+.overlay{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-color: rgba(0,0,0,0.30);
+}
+
+.Diseno-texto{
+	position:absolute;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	top:0;
+	text-align: center;
+	z-index: 2;
+	color:#FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	
+	
+}
+
+.Diseno:hover .Diseno-texto{
+	opacity: 1;
+	
+}
+
+.Diseno img{
+	width: 100%;
+
+	
+}
+
+
+.btn btn-primary{
+	
+	color: #FFFFFF;
+}
+
+
+#portafolio h4{
+	color: #FFFFFF;
+}
+
+#contacto{
+	
+	color: #345857;
+	background-image: url("../img/cover4.png");
+	background-size:cover;
+	
+}
+
+#contacto p{
+	color: #000000;
+}
+
+footer{
+	font-size: 20px;
+	color: #F5CD8F;
+	background-color: #345857;
+	text-align: center;
+	padding: 50px 0;
+	text-align: left;
+}
+
+
